@@ -90,18 +90,17 @@ birthday-animations/
 
 No build tool or server is required. Simply open the file in any modern browser:
 
+### Installation
+To get this project on your local machine, run the following command in your terminal:
 ```bash
-# Option 1 — Double-click the file in File Explorer
-birthday-animations/index.html
-
-# Option 2 — Using VS Code Live Server extension
-# Right-click index.html → "Open with Live Server"
-
-# Option 3 — Using Python's built-in server
-cd birthday-animations
-python -m http.server 5500
-# Then open http://localhost:5500 in your browser
+git clone https://github.com/iamgajanan70/pranitabday.git
 ```
+
+### Running Locally
+Because this project utilizes standard web technologies without a complex backend, you can explore it simply by opening the files in your browser. 
+For the absolute best experience (to ensure `localStorage` and modules work without cross-origin constraints), run it using **Live Server** in VS Code:
+1. Open the project folder in VS Code.
+2. Right-click `index.html` and select **"Open with Live Server"**.
 
 > **Note:** The **Candle Blowing Game** requires microphone access. Your browser will prompt for permission when you start the game. Allow it to use the mic-detection feature.
 
